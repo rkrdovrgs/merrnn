@@ -22,7 +22,8 @@
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "web": "webpack -w",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "postinstall": "webpack"
   },
   "jest": {
     "preset": "jest-expo"
