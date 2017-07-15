@@ -10,11 +10,9 @@ const SearchBox = (props) => (
 
 const styles = {
     input: {
-        color: 'white',
         margin: 10,
         height: 45,
         paddingLeft: 10,
-        backgroundColor: '#238c59',
         fontSize: 18,
         width: '100%',
         margin: 0,
